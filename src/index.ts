@@ -1,4 +1,5 @@
 import { CsvFileReader } from './CsvFileReader';
+import { MatchResult } from './MatchResult';
 
 //object, but here it is not clear the purpose (why is the following info important)
 
@@ -9,13 +10,6 @@ reader.read();
 //   awayWin: 'A',
 //   draw: 'D',
 // };
-
-//enum - enumeration
-enum MatchResult {
-  HomeWin = 'H',
-  AwayWin = 'A',
-  Draw = 'D',
-}
 
 let manUnitedWins = 0;
 
